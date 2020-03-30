@@ -1,0 +1,2 @@
+select * from cb_item t1,cb_teamitem t2,basic_userteam t3, basic_team t4
+where t1.itemid=t2.itemid and t2.teamid=t3.teamid and t3.teamid=t4.teamid and t1.name='µç·Ñ' and t4.sortname='1' and userid=''
